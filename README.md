@@ -45,8 +45,7 @@ To set up the environment and run the project locally, follow the steps below:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/repo-name.git
-cd repo-name
+git clone https://github.com/AaashrafHabib/Technical_Test
 ```
 ### 2. Run a seperate Container for Postgres to serve as a vector Database later : 
 ```bash
