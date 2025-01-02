@@ -60,6 +60,8 @@ docker run -d \
   phidata/pgvector:16
 
 ```
+### 2.Create a Python Virtual Environment  : 
+
 #### 1.Install the required package : 
 
 ```bash
