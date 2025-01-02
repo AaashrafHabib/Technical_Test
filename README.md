@@ -155,6 +155,17 @@ def ask_agent(question):
 # ask_agent("What is Sam's Club Segment?")
 ask_agent("What is the capital of France?")  # Not in knowledge base
 ```
+### 1.Parameters : 
+  These are some per default parameters used in the agentic_Rag 
+	FixedSizeChunking	is The chunking strategy to use.
+  PDFReader()	A PDFReader that converts the PDFs into Documents for the vector database.
+  SearchType is 	vector
+  Distance used for similarity search 	is cosine	: 
+  $$
+\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
+$$
+
+
 ### 2.CSV_Agent: 
 This agent is able to read csv files and store them under a specific table on our pgvector and then understand user queries and try to respond to them using our base_knowledge 
 ```python
