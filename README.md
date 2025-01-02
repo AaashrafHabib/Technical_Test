@@ -60,25 +60,25 @@ docker run -d \
   phidata/pgvector:16
 
 ```
-### 3. Create a python virtual environment : 
 
-#### 1.Install the required package : 
 
-```bash
-sudo apt update
-sudo apt install python3-venv
-```
-#### 2.Create a virtual environment : 
+#### 1.Create a virtual environment : 
 
 ```bash
 python3 -m venv myenv
 
 ```
-#### 3.Activate the virtual environment : 
+#### 2.Activate the virtual environment : 
 ```bash
 source myenv/bin/activate
 
 
+```
+#### 3.Install the required package : 
+
+```bash
+sudo apt update
+sudo apt install python3-venv
 ```
 
 
