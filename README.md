@@ -2,26 +2,6 @@
   Technical Assesment 
 </h1>
 
-<p align="center">
-  <a href="https://docs.phidata.com">
-    <img src="https://img.shields.io/badge/Read%20the%20Documentation-Click%20Here-green?style=for-the-badge&logo=read-the-docs" alt="Read the Docs">
-  </a>
-</p>
-
-<h3 align="center">
-Build multi-modal Agents with  knowledge, tools and ability to reason
-</h3>
-
-## What is phidata?
-
-**Phidata is a framework for building multi-modal agents**, use phidata to:
-
-- **Build multi-modal agents with memory, knowledge, tools and reasoning.**
-- **Build teams of agents that can work together to solve problems.**
-
-
-
-
 # Scalable Query Response System Using Phi Framework
 
 ## Overview
