@@ -161,9 +161,7 @@ ask_agent("What is the capital of France?")  # Not in knowledge base
   PDFReader()	A PDFReader that converts the PDFs into Documents for the vector database.
   SearchType is 	vector
   Distance used for similarity search 	is cosine	: 
-  $$
-\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
-$$
+   <code>(A · B) / (||A|| ||B||)</code>
 
 
 ### 2.CSV_Agent: 
