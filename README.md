@@ -60,36 +60,32 @@ docker run -d \
   phidata/pgvector:16
 
 ```
-
-
-#### 1.Create a virtual environment : 
-
-```bash
-python3 -m venv myenv
-
-```
-#### 2.Activate the virtual environment : 
-```bash
-source myenv/bin/activate
-
-
-```
-#### 3.Install the required package : 
+#### 1.Install the required package : 
 
 ```bash
 sudo apt update
 sudo apt install python3-venv
 ```
 
+#### 2.Create a virtual environment : 
+
+```bash
+python3 -m venv myenv
+
+```
+#### 3.Activate the virtual environment : 
+```bash
+source myenv/bin/activate
 
 
+```
 
-### 3.Install all the dependencies required for this project : 
+### 4.Install all the dependencies required for this project : 
 ```bash
 Pip install -r requirements.txt
 
 ```
-### 4.Get a Groq API key : 
+### 5.Get a Groq API key : 
 You should register and follow this link https://console.groq.com/keys
 
 ## Agents : 
