@@ -266,6 +266,12 @@ I ensured a very good performance regadring metrics like latency . Choose the ag
  So at the end I choosed to Transfer everything to **Azure** , I created a VM  ( **Linux as OS** ) and choosed 28 Ram and 4 **CPU's**
  ## DEMO 
  ### 1.Agentic_Rag : 
+ ![image](https://github.com/user-attachments/assets/6248367b-fc7d-418f-a221-2756435d2c8b)
+![image](https://github.com/user-attachments/assets/62f2340a-6ae1-4355-9037-8064e8de55f5)
+![image](https://github.com/user-attachments/assets/6466ba55-bc0b-452f-8832-e34520780b3e)
+![image](https://github.com/user-attachments/assets/74433e62-6eb4-4647-b744-09d043853cf3)
+
+
  
 
  ### 2.Finance_RAG : 
