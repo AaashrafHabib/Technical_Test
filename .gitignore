@@ -1,0 +1,4 @@
+myenv/
+.env
+histogram_query.sql
+__pycache__/
