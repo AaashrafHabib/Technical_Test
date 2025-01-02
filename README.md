@@ -250,6 +250,24 @@ finance_agent = Agent(
 finance_agent.print_response("What is the price of walmart stock", stream=True)
 ```
 
+## Achievements : 
+
+### 1.Scalability: : 
+I Ensured that the solution can handle thousands to hundreds of thousands of documents.Since the pgVector is a seperate container that can be hosted on VM on any cloud platform 
+
+### 2.Performance : 
+I ensured a very good performance regadring metrics like latency . Choose the agentic_Rag has already over traditional rag has already improved latency . but I have to mention that groq inferencing engines has been know to be quiet impressive when it comes to open source inferencing egines 
+
+## Challenges : 
+ I have to mention that I have a very limited hardware ( 8gb of Ram ) . I spent the First three days working locally on my computer , but It seemed quiet challenging especially when it comes to inference for embedding models from **Sentence_Transformer** which requires a good amount of ram , since the ouput desired for the **pgVector** is 1536 . So a lot of computation
+ So at the end I choosed to Transfer everything to **Azure** , I created a VM  ( **Linux as OS** ) and choosed 28 Ram and 4 **CPU's**
+ ## DEMO 
+ ### 1.Agentic_Rag : 
+
+ ### 2.Finance_RAG : 
+
+ ### 3.CSV_Agent: 
+ 
 
 
 
