@@ -157,24 +157,26 @@ ask_agent("What is the capital of France?")  # Not in knowledge base
 ```
 ### 1.Parameters : 
   These are some per default parameters used in the agentic_Rag 
+  #### Chunking strategy :
 	FixedSizeChunking	is The chunking strategy to use.
+  #### Reader : 
   PDFReader()	A PDFReader that converts the PDFs into Documents for the vector database.
 
-  #### Search Type: 
+  #### Search Type : 
   SearchType is  : vector
   Vector search involves comparing a query vector against a database of vectors to find the most similar ones
 
   #### Cosine for Similarity search : 
   Distance used for similarity search 	is cosine	: 
    <code> Cosine Similarity = (A · B) / (||A|| .||B||)</code>
-   where A.B : is the dot product of the two vectors. 
-   ||A|| .||B|| : is the  product of  the magnitudes of two vectors.
+   where <code> (A.B) <code>  : is the dot product of the two vectors. 
+   <code> ( ||A|| .||B|| ) <code>  : is the  product of  the magnitudes of two vectors.
 
    For each vector in the database, the similarity (or distance) between the query vector and stored vectors is computed. With pgvector, cosine similarity is often used.
 
    Cosine Distance is defined as:
-   Cosine Distance = 1 − Cosine Similarity
-T  his converts a similarity measure (higher is better) into a distance measure (lower is better) suitable for nearest neighbor search.
+  <code> ( Cosine Distance = 1 − Cosine Similarity ) <code> 
+  This converts a similarity measure (higher is better) into a distance measure (lower is better) suitable for nearest neighbor search.
 
 
 ### 2.CSV_Agent: 
