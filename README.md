@@ -17,6 +17,7 @@ The solution enables the development of intelligent agents that can interact wit
 - **Financial Data Integration**: Real-time financial data, such as stock prices and company information, can be queried using the YFinance integration.
 - **Groq Inference Engine**: Utilizes Groq for efficient model inference to accelerate the query processing.
 - **PgVector Database**: Uses a vector database to store and retrieve embeddings of documents for fast similarity-based searches.
+- **Azure Cloud Services** 
 
 ## Technologies Used
 
@@ -284,7 +285,10 @@ I ensured a very good performance regadring metrics like latency . Choose the ag
 
 ## Challenges : 
  I have to mention that I have a very limited hardware ( 8gb of Ram ) . I spent the First three days working locally on my computer , but It seemed quiet challenging especially when it comes to inference for embedding models from **Sentence_Transformer** which requires a good amount of ram , since the input desired for the **pgVector** is 1536 . So a lot of computation
- So at the end I choosed to Transfer everything to **Azure** , I created a VM  ( **Linux as OS** ) and choosed 28 Ram and 4 **CPU's**
+ So at the end I choosed to Transfer everything to **Azure** , I created a VM  ( **Linux as OS** ) and choosed 28 Ram and 4 **vCPU's**
+ ![image](https://github.com/user-attachments/assets/cbba69d6-6f15-4197-a844-8eff004181cc)
+
+ 
  ## DEMO 
  ### 1.Agentic_Rag : 
  ![image](https://github.com/user-attachments/assets/6248367b-fc7d-418f-a221-2756435d2c8b)
