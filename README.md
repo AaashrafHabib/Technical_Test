@@ -169,13 +169,13 @@ ask_agent("What is the capital of France?")  # Not in knowledge base
   #### Cosine for Similarity search : 
   Distance used for similarity search 	is cosine	: 
    <code> Cosine Similarity = (A · B) / (||A|| .||B||)</code>
-   where <code> (A.B) <code>  : is the dot product of the two vectors. 
-   <code> ( ||A|| .||B|| ) <code>  : is the  product of  the magnitudes of two vectors.
+   where <code> (A.B) </code>  : is the dot product of the two vectors. 
+   <code> ( ||A|| .||B|| ) </code>  : is the  product of  the magnitudes of two vectors.
 
    For each vector in the database, the similarity (or distance) between the query vector and stored vectors is computed. With pgvector, cosine similarity is often used.
 
    Cosine Distance is defined as:
-  <code> ( Cosine Distance = 1 − Cosine Similarity ) <code> 
+  <code> ( Cosine Distance = 1 − Cosine Similarity ) </code> 
   This converts a similarity measure (higher is better) into a distance measure (lower is better) suitable for nearest neighbor search.
 
 
